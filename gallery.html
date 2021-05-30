@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Галерея</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__phone">
+              <div>
+                <img src="icons/header/phone.svg" alt="" />
+                <a href="tel:+77172316261">+7 (7172) 31-62-61</a>
+              </div>
+            </div>
+            <div class="header__search">
+              <input type="text" placeholder="Поиск" />
+              <button><img src="icons/header/search.svg" alt="" /></button>
+            </div>
+            <div class="header__logo">LOGO</div>
+            <div class="header__lang">
+              <div>
+                <button>
+                  <span>РУС</span
+                  ><img src="icons/header/arrow-down.svg" alt="" />
+                </button>
+                <ul>
+                  <li><a href="">ҚАЗ</a></li>
+                </ul>
+              </div>
+            </div>
+            <button class="header__btn">
+              <div>Дистанционное обучение</div>
+            </button>
+            <button class="header__hamburger">
+              <div></div>
+              <div></div>
+              <div></div>
+              <img src="icons/header/menu-close.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <nav class="nav">
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="#" class="menu__item-link">Главная</a>
+              </li>
+              <li id="menu-item-1" class="menu__item menu__item-dropdown">
+                <a href="#" class="menu__item-link"
+                  >О школе <img src="icons/header/arrow-down.svg" alt=""
+                /></a>
+                <div class="dropdown-box dropdown-box-1">
+                  <ul>
+                    <li class="dropdown-item dropdown-item-1">
+                      <a href="#"
+                        >Наш подход
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-1">
+                        <li class="subdropdown-item"><a href="#">Миссия</a></li>
+                        <li class="subdropdown-item">
+                          <a href="#">Основы школы</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Ценности</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Достижения</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Документы</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-2">
+                      <a href="#"
+                        >Команда <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-2">
+                        <li class="subdropdown-item">
+                          <a href="#">Администрация</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Педагогический состав</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Вакансии</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Партнеры дополнительного образования</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-3">
+                      <a href="#"
+                        >Инфраструктура школы
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-3">
+                        <li class="subdropdown-item">
+                          <a href="#">Здание школы</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Интерьер</a>
+                        </li>
+                        <li class="subdropdown-item"><a href="#">Классы</a></li>
+                        <li class="subdropdown-item">
+                          <a href="#">Актовый зал</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Библиотека</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Столовая</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Медицинский блок</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Безопасная территория</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-4">
+                      <a href="#"
+                        >Школьная жизнь
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-4">
+                        <li class="subdropdown-item">
+                          <a href="#">Олимпиады и конференции</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Учебный год</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Фотогалерея</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Видеогалерея</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Новости школы</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-5">
+                      <a href="#"
+                        >Новости школы
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="dropdown-item dropdown-item-6">
+                      <a href="#"
+                        >Поступающим
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-6">
+                        <li class="subdropdown-item">
+                          <a href="#">Условия поступления</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-7">
+                      <a href="#"
+                        >Гос. закупки и бухгалтерия
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-7">
+                        <li class="subdropdown-item">
+                          <a href="#">Питание</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Индивидуальный план финансирования</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">План государственных закупок</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Акты выполненных работ</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-8">
+                      <a href="#"
+                        >Гос. услуги
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-8">
+                        <li class="subdropdown-item">
+                          <a href="#">Перечень государственных услуг</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-9">
+                      <a href="#"
+                        >Антикорупция
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-9">
+                        <li class="subdropdown-item">
+                          <a href="#">КОДЕКС ЭТИКИ</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Антикоррупционный стандарт</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#"
+                            >О проведении внутреннего анализа коррупционных
+                            рисков</a
+                          >
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">АНАЛИТИЧЕСКИЕ СПРАВКА</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li id="menu-item-2" class="menu__item menu__item-dropdown">
+                <a href="#" class="menu__item-link menu__item-link-dropdown"
+                  >Учащимся <img src="icons/header/arrow-down.svg" alt=""
+                /></a>
+                <div class="dropdown-box dropdown-box-2">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Расписание звонком</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Расписание уроков</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Школьные кружки</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Кодекс учащегося</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Школьная форма</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Подготовка к экзаменам</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">ГИА/ЕНТ</a></li>
+                    <li class="dropdown-item"><a href="#">ВОУД</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li id="menu-item-3" class="menu__item menu__item-dropdown">
+                <a href="#" class="menu__item-link"
+                  >Образовательные проекты
+                  <img src="icons/header/arrow-down.svg" alt=""
+                /></a>
+                <div class="dropdown-box dropdown-box-3">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 1 классе</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения во 2 – 4 классах</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 5 – 7 классах</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 8 – 11 классах</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li id="menu-item-4" class="menu__item menu__item-dropdown">
+                <a href="#" class="menu__item-link"
+                  >Родителям <img src="icons/header/arrow-down.svg" alt=""
+                /></a>
+                <div class="dropdown-box dropdown-box-4">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Психологическая поддержка</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Памятка о безопасности детей</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Классное руководство</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">Успеваемость</a></li>
+                    <li class="dropdown-item">
+                      <a href="#">Платные услуги</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Договор на обучение</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Параметры отмены занятий</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Попечительский совет</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">Микроучасток</a></li>
+                    <li class="dropdown-item">
+                      <a href="#">Кодекс родителей</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Часто задаваемые вопросы</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="mobile-menu">
+              <a href="#" class="mobile-menu__back"
+                ><div>
+                  <img src="icons/header/arrow.svg" alt="arrow" /> Назад
+                </div></a
+              >
+              <div class="mobile-menu__list menu-item-1">
+                <div class="list-title">О школе</div>
+                <div class="dropdown-box dropdown-box-1">
+                  <ul>
+                    <li class="dropdown-item dropdown-item-1">
+                      <a href="#"
+                        >Наш подход
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-1">
+                        <li class="subdropdown-item"><a href="#">Миссия</a></li>
+                        <li class="subdropdown-item">
+                          <a href="#">Основы школы</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Ценности</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Достижения</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Документы</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-2">
+                      <a href="#"
+                        >Команда <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-2">
+                        <li class="subdropdown-item">
+                          <a href="#">Администрация</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Педагогический состав</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Вакансии</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Партнеры дополнительного образования</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-3">
+                      <a href="#"
+                        >Инфраструктура школы
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-3">
+                        <li class="subdropdown-item">
+                          <a href="#">Здание школы</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Интерьер</a>
+                        </li>
+                        <li class="subdropdown-item"><a href="#">Классы</a></li>
+                        <li class="subdropdown-item">
+                          <a href="#">Актовый зал</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Библиотека</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Столовая</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Медицинский блок</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Безопасная территория</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-4">
+                      <a href="#"
+                        >Школьная жизнь
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-4">
+                        <li class="subdropdown-item">
+                          <a href="#">Олимпиады и конференции</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Учебный год</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Фотогалерея</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Видеогалерея</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Новости школы</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-5">
+                      <a href="#"
+                        >Новости школы
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="dropdown-item dropdown-item-6">
+                      <a href="#"
+                        >Поступающим
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-6">
+                        <li class="subdropdown-item">
+                          <a href="#">Условия поступления</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-7">
+                      <a href="#"
+                        >Гос. закупки и бухгалтерия
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-7">
+                        <li class="subdropdown-item">
+                          <a href="#">Питание</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Индивидуальный план финансирования</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">План государственных закупок</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Акты выполненных работ</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-8">
+                      <a href="#"
+                        >Гос. услуги
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-8">
+                        <li class="subdropdown-item">
+                          <a href="#">Перечень государственных услуг</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-item-9">
+                      <a href="#"
+                        >Антикорупция
+                        <img src="icons/header/arrow-down.svg" alt=""
+                      /></a>
+                      <ul class="subdropdown-box subdropdown-box-9">
+                        <li class="subdropdown-item">
+                          <a href="#">КОДЕКС ЭТИКИ</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">Антикоррупционный стандарт</a>
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#"
+                            >О проведении внутреннего анализа коррупционных
+                            рисков</a
+                          >
+                        </li>
+                        <li class="subdropdown-item">
+                          <a href="#">АНАЛИТИЧЕСКИЕ СПРАВКА</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-menu__list menu-item-2">
+                <div class="list-title">Учащимся</div>
+                <div class="dropdown-box dropdown-box-2">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Расписание звонком</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Расписание уроков</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Школьные кружки</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Кодекс учащегося</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Школьная форма</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Подготовка к экзаменам</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">ГИА/ЕНТ</a></li>
+                    <li class="dropdown-item"><a href="#">ВОУД</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-menu__list menu-item-3">
+                <div class="list-title">Образовательные проекты</div>
+                <div class="dropdown-box dropdown-box-3">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 1 классе</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения во 2 – 4 классах</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 5 – 7 классах</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Программа обучения в 8 – 11 классах</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-menu__list menu-item-4">
+                <div class="list-title">Родителям</div>
+                <div class="dropdown-box dropdown-box-4">
+                  <ul>
+                    <li class="dropdown-item">
+                      <a href="#">Психологическая поддержка</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Памятка о безопасности детей</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Классное руководство</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">Успеваемость</a></li>
+                    <li class="dropdown-item">
+                      <a href="#">Платные услуги</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Договор на обучение</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Параметры отмены занятий</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Попечительский совет</a>
+                    </li>
+                    <li class="dropdown-item"><a href="#">Микроучасток</a></li>
+                    <li class="dropdown-item">
+                      <a href="#">Кодекс родителей</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Часто задаваемые вопросы</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="header__search">
+            <input type="text" placeholder="Поиск" />
+            <button><img src="icons/header/search.svg" alt="" /></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="gallery">
+      <div class="gallery__header">
+        <div class="container">
+          <div class="breadcrumbs">
+            <div class="breadcrumbs__inner">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list-item"><a href="#">Главная</a></li>
+                <li class="breadcrumbs__list-item"><span>Галерея</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="gallery__title">Галерея</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="gallery__photos">
+          <div class="gallery__photos-title">Фотоматериалы</div>
+          <div class="gallery__photos-wrapper">
+            <div class="photos-item">
+              <a
+                href="https://hdwallpaperim.com/wp-content/uploads/2017/08/31/158174-waterfall-Sun-sunlight-water.jpg"
+                class="photos-item__img"
+                ><img
+                  src="https://hdwallpaperim.com/wp-content/uploads/2017/08/31/158174-waterfall-Sun-sunlight-water.jpg"
+                  alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="photos-item">
+              <a href="img/gallery/photo-2.jpg" class="photos-item__img"
+                ><img src="img/gallery/photo-2.jpg" alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="photos-item">
+              <a href="img/gallery/photo-3.jpg" class="photos-item__img"
+                ><img src="img/gallery/photo-3.jpg" alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="photos-item">
+              <a href="img/gallery/photo-1.jpg" class="photos-item__img"
+                ><img src="img/gallery/photo-1.jpg" alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="photos-item">
+              <a href="img/gallery/photo-2.jpg" class="photos-item__img"
+                ><img src="img/gallery/photo-2.jpg" alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="photos-item">
+              <a href="img/gallery/photo-3.jpg" class="photos-item__img"
+                ><img src="img/gallery/photo-3.jpg" alt="photo"
+              /></a>
+              <div class="photos-item__title">Название материала</div>
+              <div class="photos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery__videos">
+          <div class="gallery__videos-title">Видеоматериалы</div>
+          <div class="gallery__videos-wrapper">
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-1.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-2.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-3.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-1.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-2.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+            <div class="videos-item">
+              <a
+                href="https://www.youtube.com/watch?v=Kb8CW3axqRE"
+                class="videos-item__img"
+                ><img src="img/gallery/photo-3.jpg" alt="video"
+              /></a>
+              <div class="videos-item__title">Название материала</div>
+              <div class="videos-item__descr">
+                Главная опасность любого офисного переезда в том, что он может
+                затянуться
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <ul class="pagination-list">
+            <li class="pagination-list__item pagination-list__item--prev">
+              <a href="#"
+                ><svg
+                  width="9"
+                  height="12"
+                  viewBox="0 0 9 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.971076 5.53634L6.437 0.222277C6.70062 -0.0340158 7.12801 -0.0340158 7.39159 0.222278L8.0291 0.842078C8.29227 1.09793 8.29277 1.5126 8.03023 1.76906L3.69839 6.00039L8.03023 10.2317C8.29277 10.4882 8.29227 10.9028 8.0291 11.1587L7.39159 11.7785C7.12798 12.0348 6.70059 12.0348 6.437 11.7785L0.971104 6.46442C0.707488 6.20815 0.707488 5.79264 0.971076 5.53634Z"
+                    fill="#70C49C"
+                  /></svg
+              ></a>
+            </li>
+            <li class="pagination-list__item pagination-list__item--active">
+              <a href="#">01</a>
+            </li>
+            <li class="pagination-list__item"><a href="#">02</a></li>
+            <li class="pagination-list__item pagination-list__item--dots">
+              <span>...</span>
+            </li>
+            <li class="pagination-list__item"><a href="#">11</a></li>
+            <li class="pagination-list__item pagination-list__item--next">
+              <a href="#"
+                ><svg
+                  width="9"
+                  height="14"
+                  viewBox="0 0 9 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.02892 7.46366L2.563 12.7777C2.29938 13.034 1.87199 13.034 1.60841 12.7777L0.970897 12.1579C0.707731 11.9021 0.707225 11.4874 0.969772 11.2309L5.30161 6.99961L0.969773 2.7683C0.707226 2.51184 0.707733 2.09717 0.970898 1.84132L1.60841 1.22152C1.87202 0.965224 2.29941 0.965224 2.563 1.22152L8.0289 6.53558C8.29251 6.79185 8.29251 7.20737 8.02892 7.46366Z"
+                    fill="#70C49C"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo">LOGO</div>
+          <div class="footer__info">
+            <div class="footer__info-left">
+              <div>
+                <div class="footer__info-map">
+                  <div class="map-icon">
+                    <img src="icons/footer/map.svg" alt="map" />
+                  </div>
+                  <div class="footer__info-address">
+                    Республика Казахстан, 010000<br />г. Нур-Султан, ул.
+                    Богенбай 35-33
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__info-right">
+              <div>
+                <div class="footer__info-contact">
+                  <div class="footer__info-phone">
+                    <div class="phone-icon">
+                      <img src="icons/footer/phone.svg" alt="phone" />
+                    </div>
+                    <a href="tel:+77172316261" class="phone-number"
+                      >+7 (7172) 31-62-61</a
+                    >
+                  </div>
+                  <div class="footer__info-mail">
+                    <div class="mail-icon">
+                      <img src="icons/footer/mail.svg" alt="mail" />
+                    </div>
+                    <a href="mailto:" class="mail-addr">_________@edu.kz</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__logo-img">
+            <img src="img/footer/footer-logo.png" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">© Все права защищены</div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
